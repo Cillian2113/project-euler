@@ -1,7 +1,7 @@
 def largestProductGrid(numstring):
 	numstring = numstring.split("\n")
 	max = 0
-	#numstring[y][x]
+	# numstring[y][x]
 	for y in range(20):
 		numstring[y] = numstring[y].split(" ")
 		numstring[y] = [ int(x) for x in numstring[y] ]
