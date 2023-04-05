@@ -4,5 +4,7 @@ My runnable code for solving Project Euler problems in Python. A link to the pro
 
 **My favourite problem sets:**
 <br>
-Problem 11 [p11.py](Problems(11-20)/p11.py)
+[p11.py](Problems(11-20)/p11.py) https://projecteuler.net/problem=11
+<br>
+[p21.py](Problems(21-30)/p21.py) https://projecteuler.net/problem=21
 
