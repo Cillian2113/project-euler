@@ -23,8 +23,8 @@ def primeNumbers(num):
 	prime = [True for i in range(num+1)]
 	primes = []
 	p = 2
-	while (p * p <= num):
-		if (prime[p] is True):
+	while p * p <= num:
+		if prime[p] is True:
 			for i in range(p * p, num+1, p):
 				prime[i] = False
 		p += 1
