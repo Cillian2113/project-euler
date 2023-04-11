@@ -9,7 +9,6 @@ def circularPrimes():
 		if circular is False:
 			continue
 		combinations = [rotateDigits(n,k) for k in range(len(str(n)))]
-		print(combinations)
 		for perm in combinations:
 			if int(perm) in primes:
 				continue
@@ -18,7 +17,6 @@ def circularPrimes():
 				break
 		if circular is True:
 			total += 1
-			print(n)
 	return total
 
 def primeNumbers(num):
