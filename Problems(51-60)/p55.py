@@ -6,7 +6,7 @@ def lychrelNumbers():
 	return nums
 
 def islychrel(n):
-	for x in range(50):
+	for _ in range(50):
 		n = n + int(str(n)[::-1])
 		if str(n) == str(n)[::-1]:
 			return False
